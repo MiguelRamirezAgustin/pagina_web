@@ -2980,9 +2980,10 @@ html.no-csstransitions .home-content__main {
 .s-contact {
   padding-top: 21rem;
   padding-bottom: 10.2rem;
-  background-color: #111111;
+  background-color: #0725ce;
   color: rgba(255, 255, 255, 0.3);
   position: relative;
+  height: 90%;
 }
 .s-contact a {
   color: #ffffff;
