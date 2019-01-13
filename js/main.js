@@ -154,7 +154,7 @@
     var clStatCount = function() {
         
         var statSection = $(".s-stats"),
-            stats = $(".stats__count");
+            stats = $(" ");
 
         statSection.waypoint({
 

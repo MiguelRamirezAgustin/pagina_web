@@ -2895,18 +2895,20 @@ html.no-csstransitions .home-content__main {
 .s-stats {
   padding-top: 4.2rem;
   padding-bottom: 4.2rem;
-  background-color: #050505;
-  background-image: url(../images/stats-bg.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   overflow: hidden;
   position: relative;
+
+ background: #52c234;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #061700, #52c234);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #061700, #52c234); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 .s-stats::before {
   display: block;
   content: "";
-  background-color: #050505;
   position: absolute;
   top: 0;
   left: 0;
@@ -2914,7 +2916,7 @@ html.no-csstransitions .home-content__main {
   height: 100%;
   opacity: 0.8;
 }
-
+/*Modificacion para apartado de contactos */
 .stats {
   text-align: center;
 }
@@ -2922,20 +2924,16 @@ html.no-csstransitions .home-content__main {
   margin: 5.4rem 0;
   padding: 0 2rem;
   position: relative;
-  overflow: hidden;
   white-space: nowrap;
 }
 .stats__count {
   font-family: "metropolis-light", sans-serif;
-  font-size: 9.2rem;
+  font-size: 3.9rem;
   line-height: 1;
   color: #ffffff;
-  padding-bottom: 1.8rem;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  position: relative;
 }
+
+
 .stats__count::after {
   display: block;
   content: "";
@@ -2947,9 +2945,11 @@ html.no-csstransitions .home-content__main {
   left: 50%;
   margin-left: -50px;
 }
+
+/*Tamañano de letras*/
 .stats h5 {
   font-family: "metropolis-regular", sans-serif;
-  font-size: 1.8rem;
+  font-size: 2.8rem;
   line-height: 1.333;
   color: rgba(255, 255, 255, 0.5);
   margin-top: 1.8rem;
