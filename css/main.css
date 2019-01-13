@@ -1350,7 +1350,7 @@ input::-moz-focus-inner {
 
 
 /* ------------------------------------------------------------------- 
- * ## main navigation 
+ * ## main navigation horizontal
  * ------------------------------------------------------------------- */
 .header-nav {
   z-index: 900;
@@ -1383,7 +1383,7 @@ input::-moz-focus-inner {
 .header-nav a:hover,
 .header-nav a:focus,
 .header-nav a:active {
-  color: white;
+  color: rgb(242, 243, 241);
 }
 .header-nav h3 {
   font-family: "metropolis-semibold", sans-serif;
@@ -1393,12 +1393,12 @@ input::-moz-focus-inner {
   letter-spacing: 0.25rem;
   margin-bottom: 4.8rem;
   margin-top: 0.9rem;
-  color: #f3eff1;
+  color: rgb(241, 243, 240);
 }
 .header-nav p {
   margin-bottom: 2.7rem;
 }
-
+/*Color de menu*/
 .header-nav__content {
   background:rgb(124, 169, 206);
   position: relative;
@@ -1409,7 +1409,7 @@ input::-moz-focus-inner {
 
 .header-nav__list {
   font-family: "metropolis-regular", sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.9rem;
   margin: 3.6rem 0 3rem 0;
   padding: 0 0 1.8rem 0;
   list-style: none;
@@ -1421,20 +1421,20 @@ input::-moz-focus-inner {
   position: relative;
 }
 .header-nav__list li:last-child {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+  border-bottom: 1px solid rgba(196, 8, 8, 0.04);
 }
 .header-nav__list a {
   display: block;
-  color: #ffffff;
+  color:  rgba(124, 243, 12, 0.925);
   position: relative;
   padding-left: 3.5rem;
 }
 .header-nav__list a::before {
-  content: counter(ctr, decimal-leading-zero) ".";
-  counter-increment: ctr;
+  /*content: counter(ctr, decimal-leading-zero) ".";  opcion para numeros en lista
+  counter-increment: ctr;*/
   font-family: "metropolis-regular", sans-serif;
   font-size: 11px;
-  color: rgba(255, 255, 255, 0.25);
+  color: rgba(124, 243, 12, 0.925);
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   position: absolute;
@@ -1442,7 +1442,7 @@ input::-moz-focus-inner {
   top: 0;
 }
 .header-nav__list a:hover::before {
-  color: #24c8ce;
+  color: #101313;
 }
 
 .header-nav__social {
@@ -1461,7 +1461,7 @@ input::-moz-focus-inner {
 }
 .header-nav__social li a:hover,
 .header-nav__social li a:focus {
-  color: white;
+  color: rgb(241, 243, 241);
 }
 .header-nav__social li:last-child {
   margin: 0;
@@ -1665,7 +1665,7 @@ input::-moz-focus-inner {
 
 
 /* ===================================================================
- * # home
+ * # home pantalla inical 
  *
  * ------------------------------------------------------------------- */
 .s-home {
@@ -1673,6 +1673,7 @@ input::-moz-focus-inner {
   height: 100%;
   min-height: 786px;
   background-color: transparent;
+  opacity: 0.3;
   position: relative;
   display: table;
 }
@@ -1770,14 +1771,14 @@ input::-moz-focus-inner {
   display: block;
   padding: 0;
   text-align: left;
-  background-color: rgba(0, 0, 0, 0.2);
-  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  background-color: rgba(46, 124, 138, 0.671);
+  border-top: 1px solid rgba(24, 172, 218, 0.616);
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   position: relative;
 }
 .home-sidelinks li:last-child {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(238, 7, 7, 0.829);
 }
 .home-sidelinks li::before {
   content: "";
