@@ -1360,7 +1360,6 @@ input::-moz-focus-inner {
   padding: 3.6rem 3rem 3.6rem 3.6rem;
   height: 100%;
   width: 280px;
-  background:  rgb(124, 169, 206);
   color: rgba(255, 255, 255, 0.25);
   overflow-y: auto;
   overflow-x: hidden;
@@ -1375,6 +1374,12 @@ input::-moz-focus-inner {
   -ms-transform: translateX(100%);
   transform: translateX(100%);
   visibility: hidden;
+
+  background: #56ab2f;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+
 }
 .header-nav a,
 .header-nav a:visited {
@@ -1387,7 +1392,7 @@ input::-moz-focus-inner {
 }
 .header-nav h3 {
   font-family: "metropolis-semibold", sans-serif;
-  font-size: 15px;
+  font-size: 17px;
   line-height: 1.363;
   text-transform: uppercase;
   letter-spacing: 0.25rem;
@@ -1400,16 +1405,21 @@ input::-moz-focus-inner {
 }
 /*Color de menu*/
 .header-nav__content {
-  background:rgb(124, 169, 206);
   position: relative;
   left: 50px;
   opacity: 0;
   visibility: hidden;
+  border-color: transparent;
+  background: #56ab2f;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+
 }
 
 .header-nav__list {
   font-family: "metropolis-regular", sans-serif;
-  font-size: 1.9rem;
+  font-size: 2.0rem;
   margin: 3.6rem 0 3rem 0;
   padding: 0 0 1.8rem 0;
   list-style: none;
@@ -1546,6 +1556,7 @@ input::-moz-focus-inner {
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
+
 .header-menu-toggle::before {
   display: inline-block;
   content: "Menu";
@@ -1554,16 +1565,20 @@ input::-moz-focus-inner {
   text-align: right;
   padding-left: 15px;
   padding-right: 10px;
+  font-size: 15px;
   position: absolute;
   top: 0;
   right: 100%;
+  color: #0a1ecc;
 }
 .header-menu-toggle.opaque {
-  background-color: #000000;
+  background-color: #12a7ec;
 }
 .header-menu-toggle.opaque::before {
   display: none;
 }
+
+/*color de icono de menu*/
 .header-menu-toggle:hover,
 .header-menu-toggle:focus,
 .header-menu-toggle:active {
@@ -1771,7 +1786,7 @@ input::-moz-focus-inner {
   display: block;
   padding: 0;
   text-align: left;
-  background-color: rgba(46, 124, 138, 0.671);
+  background-color: black;
   border-top: 1px solid rgba(24, 172, 218, 0.616);
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
@@ -1785,7 +1800,7 @@ input::-moz-focus-inner {
   display: block;
   height: 6px;
   width: 6px;
-  background-color: #4772c2;
+  background-color: #7B7D7D;
   border-radius: 50%;
   position: absolute;
   top: 3rem;
@@ -1794,20 +1809,20 @@ input::-moz-focus-inner {
 .home-sidelinks a {
   display: block;
   padding: 2.1rem 15rem 2.1rem 4rem;
-  color: #ffffff;
+  color: white;
 }
 .home-sidelinks span {
   display: block;
   font-family: "metropolis-regular", sans-serif;
-  font-size: 1.5rem;
-  line-height: 1.6rem;
-  color: rgba(255, 255, 255, 0.5);
+  font-size: 2.1rem;
+  line-height: 1.8rem;
+  color: rgba(70, 180, 36, 0.897);
   text-transform: none;
   letter-spacing: 0;
 }
 .home-sidelinks li:hover {
-  background-color: rgba(0, 0, 0, 0.5);
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  background: rgb(12, 12, 12);
+  border-top: 1px solid rgba(73, 236, 33, 0.897);
 }
 
 
