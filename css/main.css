@@ -2516,6 +2516,7 @@ html.no-csstransitions .home-content__main {
 .item-folio__thumb a {
   display: block;
 }
+/*color de boton en imagen*/
 .item-folio__thumb a::before {
   z-index: 1;
   display: block;
@@ -2536,7 +2537,7 @@ html.no-csstransitions .home-content__main {
   content: "...";
   font-family: georgia, serif;
   font-size: 3rem;
-  color: #000000;
+  color:  #055f14;
   display: block;
   height: 30px;
   width: 30px;
@@ -2572,7 +2573,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .item-folio__title {
-  color: #000000;
+  color:  #055f14;
   font-size: 1.8rem;
   margin: 0;
 }
@@ -2594,9 +2595,10 @@ html.no-csstransitions .home-content__main {
   font-family: "metropolis-semibold", sans-serif;
   font-size: 1.3rem;
   color: #ffffff;
-  background-color: #000000;
+  background-color:  #15af2e;
   padding: 0.6rem 1.2rem;
   position: absolute;
+  border-radius: 5px;
   top: 3rem;
   left: 3rem;
   opacity: 0;
@@ -2618,7 +2620,7 @@ html.no-csstransitions .home-content__main {
 .item-folio__project-link:hover,
 .item-folio__project-link:focus,
 .item-folio__project-link:active {
-  background-color: #cc147f;
+  background-color: #14c8e7;
   color: #ffffff;
 }
 
