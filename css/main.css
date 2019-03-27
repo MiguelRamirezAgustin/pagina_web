@@ -581,7 +581,6 @@ form,
   font-size: 100%;
   color: rgb(229, 238, 231);
   font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
 }
 #loader .iconoloader{
   width: '10%';
@@ -2366,7 +2365,7 @@ html.no-csstransitions .home-content__main {
 @media only screen and (max-width: 800px) {
   .s-about {
     padding-top: 3rem;
-    padding-bottom: 12rem;
+    padding-bottom: 5rem;
   }
 
   .process {
@@ -2512,7 +2511,7 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 .s-works {
   background: #ffffff;
-  padding: 5rem 0 24rem;
+  padding: 5rem 0 13rem;
   position: relative;
 }
 
@@ -2730,7 +2729,7 @@ html.no-csstransitions .home-content__main {
 }
 @media only screen and (max-width: 1200px) {
   .s-works {
-    padding: 15rem 0 22.2rem;
+    padding: 15rem 0 12rem;
   }
 }
 @media only screen and (max-width: 1100px) {
@@ -2761,7 +2760,7 @@ html.no-csstransitions .home-content__main {
 }
 @media only screen and (max-width: 400px) {
   .s-works {
-    padding: 3rem 0 3rem;
+    padding: 3rem 0 12rem;
   }
 
   .masonry-wrap {
