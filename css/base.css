@@ -348,6 +348,9 @@ th,
 td {
     margin: 0;
     padding: 0;
+
+    /* color para quitar marca negra
+    background-color: white; */
 }
 
 h1,
@@ -650,6 +653,7 @@ textarea {
     .hide-on-mobile {
         display: none;
     }
+
 }
 
 
